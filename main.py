@@ -1,5 +1,5 @@
 from flask import Flask
-from flask import jsonify
+from flask import jsonify, redirect
 import pandas as pd
 import wikipedia
 
@@ -55,6 +55,9 @@ def wikipedia_route(company):
     ).entities
     return str(entities)
 
+@app.route("/espn")
+def espn():
+    return redirect('https://www.espn.com')
 
 if __name__ == "__main__":
     app.run(host="127.0.0.1", port=8080, debug=True)
