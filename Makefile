@@ -6,6 +6,9 @@ test:
 	#python -m pytest -vv --cov=myrepolib test/*.py
 	#python -m pytest --nbval notebook.ipynb
 
+format:
+	black *.py
+
 lint:
 	pylint --disable=R,C main.py
 
