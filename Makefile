@@ -3,8 +3,7 @@ install:
 		pip install -r requirements.txt
 
 test:
-	#python -m pytest -vv --cov=myrepolib test/*.py
-	#python -m pytest --nbval notebook.ipynb
+	#python -m pytest -vv --cov=myproj main.py
 
 format:
 	black *.py
@@ -18,4 +17,4 @@ credentials:
 gcloud:
 	gcloud config set project proj01-contdeliveryflask-gcp
 
-all: install lint test
+all: install lint
