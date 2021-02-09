@@ -1,3 +1,5 @@
+![example workflow file path](https://github.com/actions/cloud-proj01-contDeliveryFlask-GCP/workflows/.github/workflows/main.yml/badge.svg)
+
 # cloud-proj01-contDeliveryFlask-GCP
 
 ## Introduction
