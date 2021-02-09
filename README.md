@@ -27,7 +27,7 @@ To run any of the commands, one merely has to type <code>make <command></code> i
 5. credentials: this connects the not-uploaded creditial file to Google Language's API
 6. 
 
-Additionally, there is a <code>make all</code> command that runs <code>make install<\code>, <code>make lint<\code>,  and <code>make test<\code> sequentially.
+Additionally, there is a <code>make all</code> command that runs <code>make install</code>, <code>make lint</code>,  and <code>make test</code> sequentially.
 
 ### 3. main.py
 
