@@ -33,7 +33,7 @@ Additionally, there is a <code>make all</code> command that runs <code>make inst
 
 This file contains the flask app which has six routes, demonstrating different capabilities of flask. A route of interest is the <code>wikipedia</code> route (demoed [here](https://proj01-contdeliveryflask-gcp.uc.r.appspot.com/wikipedia/game-stop) for GameStop, which allows a user to input a company into the URL and output [Google-Cloud-Language's](https://pypi.org/project/google-cloud-language/), which gives an output json file for use in NLP analysis.
   
-### 4. workflow/main.yml
+### 4. workflows/main.yml
 
 This .yml file automatically implements github's workflow action upon pushing code to github
 
