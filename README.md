@@ -1,4 +1,3 @@
-![Python application test with Github Actions](https://github.com/joehs16/cloud-proj01-contDeliveryFlask-GCP/workflows/Github%20Actions/badge.svg) 
 # cloud-proj01-contDeliveryFlask-GCP
 
 ## Introduction
