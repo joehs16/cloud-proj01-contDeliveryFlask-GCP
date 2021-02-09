@@ -18,20 +18,20 @@ This file contains all of the predetermined packages that the user has deemed es
 ### 2. Makefile
 
 'Make' is an automation tool that is integrated into bash that allows one to execute bash commands. It is especially useful in establishing the "scaffold" of a new project.
-To run any of the commands, one merely has to type <code>make <command><\code> into the terminal.
+To run any of the commands, one merely has to type <code>make <command></code> into the terminal.
 - The Makefile in this repository has the following commands:
-1. install - this reads the <code>requirements.txt<\code> file and installs or upgrades all the packages declared by the user
+1. install - this reads the <code>requirements.txt</code> file and installs or upgrades all the packages declared by the user
 2. pytest - identifies where python code has failed
 3. format - this implements autoformatting on all targeted python code
-4. lint - this tool rates the quality of the <code>main.py<\code> file in this repository
+4. lint - this tool rates the quality of the <code>main.py</code> file in this repository
 5. credentials: this connects the not-uploaded creditial file to Google Language's API
 6. 
 
-Additionally, there is a <code>make all<\code> command that runs <code>make install<\code>, <code>make lint<\code>,  and <code>make test<\code> sequentially.
+Additionally, there is a <code>make all</code> command that runs <code>make install<\code>, <code>make lint<\code>,  and <code>make test<\code> sequentially.
 
 ### 3. main.py
 
-This file contains the flask app which has six routes, demonstrating different capabilities of flask. A route of interest is the <code>wikipedia<\code> route (demoed [here](https://proj01-contdeliveryflask-gcp.uc.r.appspot.com/wikipedia/game-stop) for GameStop, which allows a user to input a company into the URL and output [Google-Cloud-Language's](https://pypi.org/project/google-cloud-language/), which gives an output json file for use in NLP analysis.
+This file contains the flask app which has six routes, demonstrating different capabilities of flask. A route of interest is the <code>wikipedia</code> route (demoed [here](https://proj01-contdeliveryflask-gcp.uc.r.appspot.com/wikipedia/game-stop) for GameStop, which allows a user to input a company into the URL and output [Google-Cloud-Language's](https://pypi.org/project/google-cloud-language/), which gives an output json file for use in NLP analysis.
   
 ### 4. cloudbuild.yaml
 
