@@ -12,4 +12,10 @@ format:
 lint:
 	pylint --disable=R,C main.py
 
+credentials:
+	export GOOGLE_APPLICATION_CREDENTIALS="/home/joseph_c_hsieh/cloud-proj01-contDeliveryFlask-GCP/jch16-service-key.json"
+
+gcloud:
+	gcloud config set project proj01-contdeliveryflask-gcp
+
 all: install lint test
