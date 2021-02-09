@@ -1,5 +1,5 @@
 # cloud-proj01-contDeliveryFlask-GCP
-![Python application test with Github Actions](https://github.com/joehs16/cloud-proj01-contDeliveryFlask-GCP/.github/workflows/main.yml/badge.svg) 
+![Python application test with Github Actions](https://github.com/joehs16/cloud-proj01-contDeliveryFlask-GCP/workflows/Github%20Actions/badge.svg) 
 
 ## Introduction
 This project was to build a flask microframework website within Google Cloud Platform while setting up continous delivery.
